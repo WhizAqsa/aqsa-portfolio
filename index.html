@@ -1,612 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Aqsa's Portfolio</title>
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
 
-    <!---Rosario Font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aqsa Batool | Full Stack Developer</title>
 
-    <!--Material Icons-->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
-      rel="stylesheet"
-    />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container-fluid px-0">
-      <!--navbar-->
-      <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/"> Batool Developer </a>
-          <button
-            type="button"
-            class="navbar-toggler"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="container px-3">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto my-3 my-lg-0">
-                <li>
-                  <a class="nav-link me-lg-3" href="/">Home</a>
-                </li>
-                <li>
-                  <a class="nav-link me-lg-3" href="#about">About</a>
-                </li>
-                <li>
-                  <a class="nav-link me-lg-3" href="#education">Education</a>
-                </li>
-                <li>
-                  <a class="nav-link me-lg-3" href="#projects">Projects</a>
-                </li>
-                <li>
-                  <a class="nav-link me-lg-3" href="#personalSkills"
-                    >Personal Skills</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link me-lg-3" href="#hobbies">Hobbies</a>
-                </li>
-                <li>
-                  <a
-                    class="nav-link me-lg-3"
-                    href="#contact"
-                    data-bs-toggle="tooltip"
-                    title="Click to contact"
-                    >Contact</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
+  <!-- Rosario Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+
+  <!-- Font Awesome (for social icons) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body>
+  <div class="container-fluid px-0">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top glass-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold text-light" href="/">Aqsa Batool</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto my-3 my-lg-0">
+            <li><a class="nav-link text-light" href="#about">About</a></li>
+            <li><a class="nav-link text-light" href="#experience">Experience</a></li>
+            <li><a class="nav-link text-light" href="#projects">Projects</a></li>
+            <li><a class="nav-link text-light" href="#skills">Tech Stack</a></li>
+            <li><a class="nav-link text-light" href="#education">Education</a></li>
+            <li><a class="nav-link text-light" href="#contact">Contact</a></li>
+          </ul>
         </div>
-      </nav>
-      <main>
-        <!--main content of website-->
-        <header class="bg-light py-5">
-          <div class="container px-5">
-            <div class="row align-items-center">
-              <div class="col-lg-8 col-xl-7 col-xxl-6">
-                <div class="my-5">
-                  <h2 class="text-left fw-bold mb-2">Hi! I am Aqsa,</h2>
-                  <h2 class="text-primary text-left fw-bold mb-2">
-                    a Web Developer
-                  </h2>
-                  <p class="lead text-muted mb-4">
-                    I love creating new, exciting and responsive websites.Scroll
-                    down to know more!
-                  </p>
-                  <div class="row gap-3 d-sa-flex justify-content-start">
-                    <a
-                      class="col-md btn btn-primary btn-large text-uppercase"
-                      href="#about"
-                      >Learn More
-                      <span class="material-icons-outlined ms-2"
-                        >help_outline</span
-                      ></a
-                    >
-                    <a
-                      class="col-md btn btn-primary btn-large text-uppercase"
-                      href="#projects"
-                      >View My Work
-                      <span class="material-icons-outlined ms-2"
-                        >manage_search</span
-                      ></a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-5 col-xxl-6 justify-content-center">
-                <img
-                  class="img-fluid rounded-circle my-5"
-                  src="images/me.jpeg"
-                />
-              </div>
-            </div>
-          </div>
-        </header>
-        <!--about-->
-        <hr />
-        <section id="about" class="text-center py-5">
-          <div class="container py-5">
-            <div class="row justify-content-center">
-              <h2 class="fw-bold">About</h2>
-              <p class="lead text-muted mb-5">
-                I am currently in 3rd year of my CS degree at National
-                University of Sciences & Technology.
-                <br />Looking forward to create new,exciting and amazing
-                projects individually and with my team members! <br />However, I
-                have more inclination towards Web Design & Development.
-              </p>
-            </div>
-          </div>
-          <div class="container mb-5">
-            <div class="row">
-              <div class="col-lg-4 mx-auto mb-5">
-                <div class="d-flex mb-5 about">
-                  <span class="material-icons-outlined m-auto text-primary"
-                    >palette</span
-                  >
-                </div>
-                <h5>Design</h5>
-                <p class="text-muted mb-0">
-                  I create beautiful, adorable designs that leaves an impressive
-                  impact on the minds of people.
-                </p>
-              </div>
-              <div class="col-lg-4 mx-auto mb-5">
-                <div class="d-flex mb-5 about">
-                  <span class="material-icons-outlined m-auto text-primary"
-                    >settings</span
-                  >
-                </div>
-                <h5>Launch & Maintenance</h5>
-                <p class="text-muted mb-0">
-                  I will teach you how to launch, update and maintain the
-                  website.
-                </p>
-              </div>
-              <div class="col-lg-4 mx-auto mb-5">
-                <div class="d-flex mb-5 about">
-                  <span class="material-icons-outlined m-auto text-primary"
-                    >code</span
-                  >
-                </div>
-                <h5>Development</h5>
-                <p class="text-muted mb-0">
-                  I strive to create designs that adapt seamlessly to various
-                  devices, ensuring optimal user experience regardless of screen
-                  size or orientation.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <hr />
-        <!--education-->
-        <section id="education" class="text-center py-5">
-          <div class="container py-5">
-            <div class="row justify-content-center">
-              <h2 class="fw-bold">Education</h2>
-              <p class="lead text-muted mb-5">Explore my academic journey</p>
-            </div>
-          </div>
-          <div class="container mb-5">
-            <div class="row">
-              <div class="col-lg-4 mx-auto mb-5">
-                <div class="card h-100 shadow-lg border-0 bg-light">
-                  <div class="card-body p-4">
-                    <h5 class="card-title mb-3">BSCS</h5>
-                    <p class="card-text">
-                      National University of Sciences & Technology, Islamabad.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 mx-auto mb-5">
-                <div class="card h-100 shadow-lg border-0 bg-light">
-                  <div class="card-body p-4">
-                    <h5 class="card-title mb-3">FSc</h5>
-                    <p class="card-text">
-                      Punjab Group of Colleges, Bahawalpur.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 mx-auto mb-5">
-                <div class="card h-100 shadow-lg border-0 bg-light">
-                  <div class="card-body p-4">
-                    <h5 class="card-title mb-3">Matric</h5>
-                    <p class="card-text">
-                      Govt. Sadiq Girls High School, Bahawalpur.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--projects-->
-        <section id="projects" class="text-center py-5">
-          <div class="container py-5">
-            <div class="row justify-content-center">
-              <h2 class="fw-bold">Projects</h2>
-              <p class="lead text-muted mb-5">
-                View some of my latest projects
-              </p>
-            </div>
-          </div>
-          <div class="container mb-5">
-            <div class="row">
-              <div class="col-lg-4 mx-auto mb-5">
-                <div class="card h-100 shadow-lg border-0 bg-light">
-                  <!-- Placeholder Image -->
-                  <img
-                    class="card-img-top placeholder-img"
-                    src="placeholder.jpg"
-                    alt="project-1"
-                    data-src="images/kitchenkonnect_wt.png"
-                  />
-                  <div class="card-body p-4">
-                    <h5 class="card-title mb-3">KitcehnKonnect</h5>
-                    <div class="mb-2">
-                      <div class="badge bg-primary rounded-pill">Next.js</div>
-                      <div class="badge bg-primary rounded-pill">
-                        TypeScript
-                      </div>
-                      <div class="badge bg-primary rounded-pill">
-                        Express.js
-                      </div>
-                      <div class="badge bg-primary rounded-pill">
-                        Tailwind CSS
-                      </div>
-                      <div class="badge bg-primary rounded-pill">MongoDB</div>
-                    </div>
-                    <!-- Placeholder Text for Project Description -->
-                    <p class="card-text">
-                      Developed a website for delivering homemade food, offering
-                      a user-friendly experience. Utilized Next.js for building
-                      the front-end, with an Express.js back-end that seamlessly
-                      communicates with MongoDB for efficient data management.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 mx-auto mb-5">
-                <div class="card h-100 shadow-lg border-0 bg-light">
-                  <!-- Placeholder Image -->
-                  <img
-                    class="card-img-top placeholder-img"
-                    src="placeholder.jpg"
-                    alt="project-2"
-                    data-src="images/bsp-logo.png"
-                  />
-                  <div class="card-body p-4">
-                    <h5 class="card-title mb-3">BLACK STAR PASTRY</h5>
-                    <div class="mb-2">
-                      <div class="badge bg-primary rounded-pill">React.js</div>
-                      <div class="badge bg-primary rounded-pill">Node.js</div>
-                      <div class="badge bg-primary rounded-pill">MongoDB</div>
-                      <div class="badge bg-primary rounded-pill">
-                        Express.js
-                      </div>
-                    </div>
-                    <!-- Placeholder Text for Project Description -->
-                    <p class="card-text">
-                      Developed a full-stack clone of a renowned e-commerce
-                      website, leveraging the MERN stack for seamless
-                      functionality. Utilized MongoDB, Express, React, and
-                      Node.js to build a scalable and dynamic web application.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 mx-auto mb-5">
-                <div class="card h-100 shadow-lg border-0 bg-light">
-                  <!-- Placeholder Image -->
-                  <img
-                    class="card-img-top placeholder-img"
-                    src="placeholder.jpg"
-                    alt="project-3"
-                    data-src="images/img-4.png"
-                  />
-                  <div class="card-body p-4">
-                    <h5 class="card-title mb-3">HOSTELO</h5>
-                    <div class="mb-2">
-                      <div class="badge bg-primary rounded-pill">Next.js</div>
-                      <div class="badge bg-primary rounded-pill">FastAPI</div>
-                      <div class="badge bg-primary rounded-pill">MySQL</div>
-                      <div class="badge bg-primary rounded-pill">
-                        Tailwindcss
-                      </div>
-                      <div class="badge bg-primary rounded-pill">
-                        Typescript
-                      </div>
-                    </div>
-                    <!-- Placeholder Text for Project Description -->
-                    <p class="card-text">
-                      Created Hostelo, a Hostel Management System for
-                      NUST.Utilized Next.js for web interface and FastAPI for
-                      Backend API communicating with MySQL.Awarded top project
-                      in CS class for outstanding front-end design and
-                      functionality.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+      </div>
+    </nav>
 
-        <hr />
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center justify-content-center">
+      <div class="container hero-container">
+        <div class="row align-items-center">
+          <!-- Left Side: Info -->
+          <div class="col-md-7 text-md-start text-center">
+            <h1>Hi! I'm Aqsa Batool</h1>
+            <h3><span class="text-info">Full Stack Developer | AI Enthusiast</span></h3>
+            <p>
+              I build scalable, modern, and visually engaging digital solutions using the
+              <b>MERN Stack</b>, <b>Next.js</b>, and <b>Python</b>. I love blending creativity
+              with logic to make interactive and AI-driven web experiences.
+            </p>
+            <div class="mt-3">
+              <a href="#projects" class="btn btn-light me-2 glow-on-hover">
+                <i class="fa-solid fa-rocket me-2"></i> View My Work
+              </a>
+              <a href="#contact" class="btn btn-outline-light glow-outline">
+                <i class="fa-regular fa-envelope me-2"></i> Contact Me
+              </a>
+            </div>
 
-        <!--hobbies-->
-        <section id="hobbies" class="text-center py-5">
-          <div class="container py-5">
-            <div class="row justify-content-center">
-              <h2 class="fw-bold">Hobbies</h2>
-              <p class="lead text-muted mb-5">
-                Discover my interests beyond coding
-              </p>
-            </div>
           </div>
-          <div class="container mb-5">
-            <div class="row">
-              <div class="col-lg-4 mx-auto mb-5">
-                <div class="card h-100 shadow-lg border-0 bg-light">
-                  <div class="card-body p-4">
-                    <h5 class="card-title mb-3">Reading</h5>
-                    <p class="card-text">
-                      I enjoy exploring various genres, from fiction to
-                      technology-related books.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 mx-auto mb-5">
-                <div class="card h-100 shadow-lg border-0 bg-light">
-                  <div class="card-body p-4">
-                    <h5 class="card-title mb-3">Traveling</h5>
-                    <p class="card-text">
-                      Exploring new places, cultures, and cuisines is something
-                      I love to do whenever I get the chance.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 mx-auto mb-5">
-                <div class="card h-100 shadow-lg border-0 bg-light">
-                  <div class="card-body p-4">
-                    <h5 class="card-title mb-3">Photography</h5>
-                    <p class="card-text">
-                      Capturing moments and expressing creativity through
-                      photography is one of my favorite hobbies.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--skills-->
-        <!-- Personal Skills Section with Accordion -->
-        <section id="personalSkills" class="text-center py-5">
-          <div class="container py-5">
-            <div class="row justify-content-center">
-              <h2 class="fw-bold">Personal Skills</h2>
-              <p class="lead text-muted mb-5">
-                Explore my skills and expertise
-              </p>
-            </div>
-          </div>
-          <!-- Wrap the accordion inside a container with fixed width -->
-          <div class="container mb-5" style="max-width: 700px">
-            <div class="accordion" id="skillsAccordion">
-              <!-- Skill Item 1 -->
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    Front-end Development
-                  </button>
-                </h2>
-                <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse show"
-                  aria-labelledby="headingOne"
-                  data-bs-parent="#skillsAccordion"
-                >
-                  <div class="accordion-body">
-                    <p class="card-text" style="text-align: left">
-                      Proficient in HTML, CSS, and JavaScript.<br />Experience
-                      with modern frameworks like React and Vue.js.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- Skill Item 2 -->
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    Back-end Development
-                  </button>
-                </h2>
-                <div
-                  id="collapseTwo"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="headingTwo"
-                  data-bs-parent="#skillsAccordion"
-                >
-                  <div class="accordion-body">
-                    <p class="card-text" style="text-align: left">
-                      Skilled in server-side languages like Node.js and Python.
-                      Familiar with databases like MySQL and MongoDB.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- Skill Item 3 -->
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    UI/UX Design
-                  </button>
-                </h2>
-                <div
-                  id="collapseThree"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="headingThree"
-                  data-bs-parent="#skillsAccordion"
-                >
-                  <div class="accordion-body">
-                    <p class="card-text" style="text-align: left">
-                      Strong understanding of design principles. Proficient in
-                      tools like Figma.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <hr />
-        <!-- Contact Section -->
-        <section id="contact" class="text-center py-5">
-          <div class="container py-5">
-            <div class="row justify-content-center">
-              <h2 class="fw-bold">Contact</h2>
-              <p class="lead text-muted mb-5">
-                Do you need a web developer? Would love to provide my services!
-              </p>
-            </div>
-          </div>
-          <div class="container mb-5">
-            <div class="d-flex justify-content-center">
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-bs-toggle="modal"
-                data-bs-target="#contactModal"
-                data-bs-dismiss="modal"
-              >
-                Contact Me
-              </button>
-            </div>
-          </div>
-        </section>
-      </main>
-    </div>
 
-    <!-- Contact Modal -->
-    <div
-      class="modal fade"
-      id="contactModal"
-      tabindex="-1"
-      aria-labelledby="contactModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="contactModalLabel">Contact Me</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <!-- Contact form can go here -->
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="name"
-                  placeholder="Enter your name"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="name@example.com"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea
-                  class="form-control"
-                  id="message"
-                  rows="3"
-                  placeholder="Enter your message"
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+          <!-- Right Side: Image -->
+          <div class="col-md-5 text-center">
+            <img src="images/aqsa.png" alt="Aqsa Batool" class="profile-img img-fluid rounded-circle shadow-lg" />
           </div>
         </div>
       </div>
-    </div>
-    <!-- Toast for Submission Message -->
-    <div
-      class="toast align-items-center"
-      id="submitToast"
-      role="alert"
-      aria-live="assertive"
-      aria-atomic="true"
-    >
-      <div class="d-flex">
-        <div class="toast-body">Your message has been submitted!</div>
-        <button
-          type="button"
-          class="btn-close me-2 m-auto"
-          data-bs-dismiss="toast"
-          aria-label="Close"
-        ></button>
-      </div>
-    </div>
+    </section>
 
-    <!--FOOTER-->
-    <footer class="text-center py-4">
-      <div class="container px-5 mb-2">
-        Copyright &copy: 2024 Batool Developer.
+
+    <!-- Experience Section -->
+    <section id="experience" class="text-center py-5 bg-light">
+      <div class="container">
+        <h2 class="fw-bold mb-4">Experience</h2>
+
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="card mb-4 border rounded-3 shadow-hover">
+              <div class="card-body text-start">
+                <h5 class="fw-bold">Full Stack Intern — devJunction</h5>
+                <p class="text-muted mb-1"><i>Jun 2025 – Aug 2025 | Islamabad, Pakistan</i></p>
+                <ul>
+                  <li>Built an AI-powered feedback analysis system for the hospitality sector.</li>
+                  <li>Developed UI components, integrated backend APIs, and improved dashboards.</li>
+                  <li>Implemented RBAC using NestJS and PostgreSQL for secure management.</li>
+                </ul>
+                <p class="small text-muted">
+                  <strong>Tech:</strong> NestJS, Next.js, PrismaORM, PostgreSQL, Tailwind, Git
+                </p>
+              </div>
+            </div>
+
+            <div class="card border rounded-3 shadow-hover">
+              <div class="card-body text-start">
+                <h5 class="fw-bold">Web Developer Intern — Code Knitters AI</h5>
+                <p class="text-muted mb-1"><i>Sep 2025 – Present | Islamabad, Pakistan</i></p>
+                <ul>
+                  <li>Collaborating on full-stack development of dynamic web applications.</li>
+                  <li>Building responsive front-end components using React.js and Next.js.</li>
+                  <li>Participating in debugging sessions and performance optimization.</li>
+                </ul>
+                <p class="small text-muted">
+                  <strong>Tech:</strong> React.js, Next.js, Express.js, MongoDB, Git, REST APIs
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="text-center py-5">
+      <div class="container">
+        <h2 class="fw-bold mb-4">Projects</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card border rounded-3 shadow-hover">
+              <div class="card-body">
+                <h5 class="fw-bold">KitchenKonnect</h5>
+                <p>Web app for homemade food delivery built with Next.js + Express + MongoDB.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card border rounded-3 shadow-hover">
+              <div class="card-body">
+                <h5 class="fw-bold">Hostelo</h5>
+                <p>Hostel Management System using Next.js, FastAPI, and MySQL.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card border rounded-3 shadow-hover">
+              <div class="card-body">
+                <h5 class="fw-bold">Skribble</h5>
+                <p>Multiplayer drawing and guessing game using Flutter and Firebase.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/WhizAqsa" class="btn btn-outline-primary mt-3">View All Projects on GitHub</a>
+      </div>
+    </section>
+    <!-- Tech Stack Section -->
+    <section id="skills" class="text-center py-5">
+      <div class="container">
+        <h2 class="fw-bold mb-5 text-info">Tech Stack</h2>
+        <div class="row justify-content-center gy-4">
+          <!-- Programming Languages -->
+          <div class="col-md-10">
+            <h4 class="text-light mb-3"><i class="fa-solid fa-code me-2 text-info"></i> Programming Languages</h4>
+            <div class="tech-icons d-flex flex-wrap justify-content-center gap-4">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"
+                title="HTML" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"
+                title="CSS" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt="JavaScript" title="JavaScript" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"
+                title="Python" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"
+                title="C++" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"
+                title="Java" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"
+                title="MySQL" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart"
+                title="Dart" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter"
+                title="Flutter" />
+            </div>
+          </div>
+
+          <!-- Frameworks & Technologies -->
+          <div class="col-md-10 mt-5">
+            <h4 class="text-light mb-3"><i class="fa-solid fa-layer-group me-2 text-info"></i> Frameworks & Technologies
+            </h4>
+            <div class="tech-icons d-flex flex-wrap justify-content-center gap-4">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+                title="React.js" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js"
+                title="Next.js" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"
+                title="Node.js" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express"
+                title="Express.js" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"
+                title="MongoDB" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                alt="TypeScript" title="TypeScript" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+                alt="TailwindCSS" title="Tailwind CSS" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase"
+                title="Firebase" />
+            </div>
+          </div>
+
+          <!-- Tools & Platforms -->
+          <div class="col-md-10 mt-5">
+            <h4 class="text-light mb-3"><i class="fa-solid fa-tools me-2 text-info"></i> Tools & Platforms</h4>
+            <div class="tech-icons d-flex flex-wrap justify-content-center gap-4">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"
+                title="Git" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"
+                title="GitHub" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"
+                title="Figma" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"
+                title="VS Code" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="text-center py-4 footer-bg text-light">
+      <div class="container">
+        <div class="mb-3">
+          <a href="https://www.linkedin.com/in/aqsa-batool-430949263/" target="_blank" class="text-light mx-3 fs-4"><i
+              class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/WhizAqsa" target="_blank" class="text-light mx-3 fs-4"><i
+              class="fab fa-github"></i></a>
+          <a href="mailto:aqsabatool2005@gmail.com" class="text-light mx-3 fs-4"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="small mb-0">© 2025 Aqsa Batool — All Rights Reserved</p>
       </div>
     </footer>
+  </div>
 
-    <!-- Custom JS -->
-    <script src="script.js"></script>
-    <!-- Bootstrap JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    >
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl);
-      });
-    </script>
-  </body>
 </html>
